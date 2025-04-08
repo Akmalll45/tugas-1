@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Akmal</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MyWebsite Akmal </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to website akmal</h1>
+        <p>Web ini dibuat untuk belajar</p>
+        <button id="cta-button"> klik di sini!</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate developers creating amazing web experiences.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>We build responsive and user-friendly websites.</p>
+            </div>
+            <div class="card">
+                <h3>SEO Optimization</h3>
+                <p>We help you rank higher on search engines.</p>
+            </div>
+            <div class="card">
+                <h3>UI/UX Design</h3>
+                <p>We design beautiful and intuitive user interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Tik tok @akmal.1</a>
+            <a href="#">Twitter @akmal</a>
+            <a href="#">Instagram @akmal</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
